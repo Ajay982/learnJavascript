@@ -1,19 +1,23 @@
 # Learn Javascript from Scratch
 
-Difference between these two code snippet        
-{
+## Difference between these two code snippet        
+```
+
     function greetStudent(name){
     console.log(`Welcome, ${name}`);
 }
 let greet= greetStudent("AJay");
-}
-{
+greet;
+>The greet here shows undefined because of implicit return of function
+```
+and 
+```
     function greetStudent(name){
         return(`Welcome, ${name}`);
     }
     let greet= greetStudent("AJay");
     greet;
-}
+```
 
 The main difference between the two code snippets is the use of the `console.log` statement in the first snippet and the `return` statement in the second snippet.
 
