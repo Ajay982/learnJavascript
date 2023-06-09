@@ -1,1 +1,1 @@
-# js
+# Learn Javascript from Scratch
