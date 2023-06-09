@@ -1,17 +1,17 @@
 # Learn Javascript from Scratch
 
 ## Difference between these two code snippet        
-```
-
+```javascript
     function greetStudent(name){
     console.log(`Welcome, ${name}`);
 }
 let greet= greetStudent("AJay");
 greet;
->The greet here shows undefined because of implicit return of function
 ```
+> The greet here shows undefined because of implicit return of function
+
 and 
-```
+```javascript
     function greetStudent(name){
         return(`Welcome, ${name}`);
     }
